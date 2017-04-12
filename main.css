@@ -6,7 +6,7 @@ background: linear-gradient(to left, #d53369 , #cbad6d); /* W3C, IE 10+/ Edge, F
         
     }
 .highlight  {
-    width: 850px;
+    width: 100%;
     color: white;
     background: rgba(0, 0, 0, 0.26);
     border-radius: 10px;
@@ -46,3 +46,24 @@ background: linear-gradient(to left, #d53369 , #cbad6d); /* W3C, IE 10+/ Edge, F
 .highlight p {
     text-align: justify;
     } 
+.highlight h1,h2,h3,h4,h5,h6 {
+    font-size: 25px;
+}
+
+/*test case*/
+.modal-lg {
+  max-width: 900px;}
+@media (min-width: 768px) {
+   .modal-lg {
+    width: 100%;
+  } 
+}
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
+@media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
+}
+/*end of test case*/
