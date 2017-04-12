@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="shortcut icon" href="pages/images/logo.ico" />
+    <title>Krishna Engineering College</title>
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Image Slider -->
+    <link rel="stylesheet" type="text/css" href="css/fotorama.css">
+    <!-- Placement Company Images Slider -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>	
+<!--test area-->
 <div class="container">
   <h2>Small Modal</h2>
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -22,7 +40,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Krishna Engineering College</h4>
+          <!-- <h4 class="modal-title">Krishna Engineering College</h4> -->
         </div>
         <div class="modal-body">
           
@@ -33,15 +51,15 @@
 
           <div class=" highlight" style="margin-left:0;">
           <h2>Top news about Krishna Engineering College</h2>
-          	<div class="row">
+            <div class="row">
             
-          		
+              
                   <img src ="logo.png" /> 
                   <ul>
-                      <li>8th Rank in Ghaziabad</li>
-                      <li>16th Rank in Uttar Pradesh</li>
-                      <li>KEC at 16th rank in Top 25 Institutes of AKTU</li>
-                      <li>Kamal Papnai achieved 5th rank in first semester in AKTU</li>
+                      <strong><li>8th Rank in Ghaziabad</li></strong>
+                      <strong><li>16th Rank in Uttar Pradesh</li></strong>
+                      <strong><li>KEC at 16th rank in Top 25 Institutes of AKTU</li></strong>
+                      <strong><li>Kamal Papnai achieved 5th rank in first semester in AKTU</li></strong>
                       
                      
                   </ul>
@@ -55,19 +73,619 @@
                  <button class = "btn btn-warning" >Read More</button>
                   </div> -->
               </div>
-          	</div>
+            </div>
           </div>
           
          
           <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
           </div>
         </div>
         
       </div>
     </div>
+<!--end of test area-->
+<div class="container-fluid bluez">
+	
+<!-- Logo-->
+<div class="container header">
+  <div class="row">
+    <div class="col-md-2">
+      <a href="index.html"><img src="images/logo.png" class="logokec img-responsive"> </a>  
+    </div>
+	    <div class="col-md-10 text-center kecheading">
+	    	<h2 class="kech">Krishna Engineering College</h2>
+	    	<i>Approved by AICTE, A Premium Institute of AKTU (College Code - 161)</i>
+	    </div>   
+  </div>
+</div>
+</div>
+
+<!-- Navbar -->
+<div class="container-fluid navb">
+   <nav class="navbar navbar-default" id="tashan">
+     <div class="container-fluid">
+       <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lold" aria-expanded="false">
+          <!--  <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span> -->
+          Navigation
+         </button>
+       </div>
+
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="lold">
+         <ul class="nav navbar-nav" id="tashanz">
+           <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+           <!-- <li><a href="#">Link</a></li> -->
+
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Institute <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="pages/overview.html">Overview</a></li>
+               <li><a href="pages/Director's Desk.html">Director's Desk</a></li>
+               <li><a href="pages/about management.html">About Management</a></li>
+               <li><a href="pages/imp functionaries.html">Important Functionaries</a></li>
+               <li><a href="pages/vision and mission.html">Vision & Mission</a></li>
+               <li><a href="pages/organizational chart.html">Organisation Chart</a></li>
+			   <li><a href="pages/mandatory disclosures.html">Mandatory Disclosures</a></li>
+             </ul>
+           </li>
+
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admissions &amp; Registration <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="pages/admission overview.html">Admission Overview</a></li>
+               <li><a href="pages/courses offered.html">Courses Offered</a></li>
+               <li><a href="pages/admission procedure.html">Admission Procedure</a></li>
+               <li><a href="pages/instr for btech admis.html">Instructions for B.Tech</a></li>
+               <li><a href="pages/instr for mtech admis.html">Instructions for M.Tech</a></li>
+               <li><a href="pages/fee structure.html">Fee Structure</a></li>
+             </ul>
+           </li>
+
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Training & Placement <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="pages/tp-overview.html">Training & Placement - Overview</a></li>
+               <li><a href="pages/tp-team.html">Training & Placement - Team</a></li>
+               <li><a href="pages/tp-about.html">About Placement Department</a></li>
+               <li><a href="pages/tp-finishing.html">Finishing School</a></li>
+             </ul>
+           </li>
+                     
+
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="pages/applied-science.html">Applied Science</a></li>
+               <li><a href="pages/computer-science.html">Computer Science &amp; Engineering</a></li>
+               <li><a href="pages/electronics.html">Electronics &amp; Communication Engineering</a></li>
+               <li><a href="pages/electrical.html">Electricals &amp; Electronics Engineering</a></li>
+               <li><a href="pages/information-technology.html">Information Technology</a></li>
+               <li><a href="pages/mechanical.html">Mechanical Engineering</a></li>
+               <li><a href="pages/civil.html">Civil Engineering</a></li>
+               <!--<li><a href="pages/mba-dept.html">MBA Department</a></li>-->
+             </ul>
+           </li>
+
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Campus Life <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="pages/academic complex.html">Academic Complex</a></li>
+               <li><a href="pages/hostels.html">Hostels</a></li>
+               <li><a href="pages/central library.html">Central Library</a></li>
+               <li><a href="pages/support facilities.html">Support Facilities</a></li>
+               <li><a href="pages/student societies.html">Student Societies</a></li>
+               <li><a href="pages/women emp cell.html">Women Empowerment Cell</a></li>
+             </ul>
+           </li>
+
+           <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Career @ KEC <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="pages/hr-overview.html">About HR</a></li>
+               <li><a href="pages/hr-jobs.html">Apply Now</a></li>
+               <li><a href="pages/hr-events.html">Event Gallery</a></li>
+               <li><a href="pages/hr-resource.html">Knowledge Sharing</a></li>
+               <li><a href="pages/hr-training.html">Training & Development</a></li>
+               <li><a href="pages/hr-team.html">Human Resource Team</a></li>
+               <li><a href="pages/hr-faqs.html">HR-FAQs</a></li>
+               <li><a href="pages/hrref.html">Employee Referrals</a></li>
+             </ul>
+           </li>
+           
+                     <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Quick Links <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="http://krishnacollege.ac.in/blog/index.php">KEC Blog</a></li>
+               <li><a href="http://192.168.2.7/message/">KEC Portal</a></li>
+               <li><a href="https://accounts.google.com/ServiceLogin?continue=http%3A%2F%2Fmail.google.com%2Fa%2Fkrishnacollege.ac.in%2F&ltmpl=default&hd=krishnacollege.ac.in&service=mail&sacu=1&rip=1#identifier">KEC - Mailbox</a></li>
+               <li><a href="http://192.168.107.3/erp/">KEC - HR Portal</a></li>
+               <li><a href="http://192.168.107.2/feedback/">Feedback Management Systen</a></li>
+               <li><a href="http://192.168.107.2/ams/">Attendance Management System</a></li>
+               <li><a href="http://192.168.2.11/kvid/">KEC Cloud</a></li>
+               <li><a href="http://iedc.krishnacollege.ac.in/">KEC - IEDC</a></li>
+               <li><a href="https://docs.google.com/spreadsheets/d/1W27XTFr5w5w5L26t_DlXv4p-_xLavPXV9oqX52SUPHg/edit#gid=0">Audi & P2P Booking</a></li>
+             </ul>
+           </li>
+                   
+         </ul>
+       </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+   </nav>
+</div>
+
+<!--News scroller-->
+<div class="container">
+   <div class="row">
+     <div class="col-md-3">
+         <a href="https://smarthubeducation.hdfcbank.com/SmartFees/Landing.action?instId=KECGZB" target="_blank" class="btn btn-primary btn-block" role="button">Online Fee Payment</a>
+     </div>
+     <div class="col-md-6">
+         <h4 style="color: #bf2b29">
+         <marquee onmouseover="this.stop();" onmouseout="this.start();">
+           <span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Congratulations to Ms. Priyanka Vashistha, CSE Branch for getting 3rd rank in University Topper List.
+         </marquee>
+         </h4>
+     </div>
+    	<div class="col-md-3 text-center">
+    		<a href="https://www.facebook.com/KECGZB" target="_blank"><img src="images/facebook.png" height="30px"></a>
+        		<a href="http://youtube.com/c/KECGhaziabadOfficial" target="_blank"><img src="images/youtube.png" height="30px"></a>
+              <a href="http://google.com/+KECGhaziabadOfficial" target="_blank"><img src="images/google+.png" height="30px"></a>
+              <a href="https://twitter.com/KrishnaCollege" target="_blank"><img src="images/twitter.png" height="30px"></a>
+              <a href="http://in.linkedin.com/pub/krishna-engineering-college-official-page/ab/197/620" target="_blank"><img src="images/linkedin.png" height="30px"></a>
+    	</div>
+   </div>
+</div>
+
+<!-- Slideshow and one banner -->
+<div class="container space">
+  <div class="row parent"> 
+  	<div class="col-md-8" id="carousel">
+        <!-- Sliderrrrr -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/buildings/DSC_0851.JPG" alt="College1">
+                    <div class="carousel-caption">
+                        <h3>Front View</h3>
+                        <p>The atmosphere at the college is good.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/buildings/DSC_0875.JPG" alt="College2">
+                    <div class="carousel-caption">
+                        <h3>AB1</h3>
+                        <p>Students outside the Academic Block 1.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/buildings/KEC FRONT IMAGE.jpg" alt="College3">
+                    <div class="carousel-caption">
+                        <h3>Night Life</h3>
+                        <p>Feel free to Walk IN in the Campus.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+  	</div>
+  <!-- Events-->
+  	<div class="col-md-4">
+  		<div class="card floatLeft"> 
+  		   <div class="card-header">
+               <h3><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Events</h3>
+  		   </div>
+  		    <div class="card-content list-group">
+                <button type="button" class="list-group-item">
+                    <span class="badge">22 Oct</span>
+                    <h4>Daffodil Software Campus Drive</h4>
+                </button>
+                <button type="button" class="list-group-item">
+                    <span class="badge">5 Nov</span>
+                    <h4>JK technosoft Campus Drive</h4>
+                </button>
+                <button type="button" class="list-group-item">
+                    <span class="badge">11,12 Nov</span>
+                    <h4>ICACDS 2016</h4>
+                </button>
+                <button type="button" class="list-group-item">
+                    <span class="badge">17 Nov</span>
+                    <h4>R Systems Campus Drive</h4>
+                </button>                
+  		    </div>
+  		</div>
+  	</div>
+  </div>
+</div>
 
 
-</body>
+<!-- About KEC -->
+<div class="container space">
+	<div class="row slideanim parent">
+		<div class="col-md-8">
+    <div class="card floatLeft">
+      <div class="card-header">
+      <h3><i class="glyphicon glyphicon-home"></i> Welcome to Krishna Engineering College</h3>
+      </div>
+      <div class="card-content" style="padding: 10px; text-align: justify;">
+			<p>
+				Krishna Engineering College (KEC, Ghaziabad) was established in 2004 by Friends Charitable Society (FCS) Ghaziabad. FCS has eminent Businessmen, Industrialists and Professionals as its members. FCS members are also associated with other leading Educational Institutions in NCR and other region of UP like Krishna Institute of Engineering &amp; Technology (KIET), Inderprastha Engineering College (IPEC), and Krishna Dental College (KDC), Krishna Institute of Technology (KIOT), Krishna Girls Engineering College (KGEC), Krishna Institute of Management &amp; Technology (KIMT). KEC has been established as an institution for the millennium with a vision to turn out scholars who will be Global Players when they leave the portals of KEC. With this vision in the background, the college endeavours to impart core technical knowledge, help students develop requisite soft skills, instil an adaptability for change and builds cross cultural compatibility to its students. The college is approved by AICTE (Ministry of HRD, Government of India) and is affiliated to AKTU, Lucknow.<br><br>
+			</p>
+
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <a href="#" class="btn btn-primary btn-md" role="button">Virtual Tour</a>
+        </div>
+        <div class="col-sm-4">
+          <a href="./pages/academic calender.html" target="_blank" class="btn btn-primary btn-md" role="button">Academic Calender</a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://www.facebook.com/KECGZB" target="_blank" class="btn btn-primary btn-md" role="button">News @ KEC</a>
+        </div>
+      </div>
+      </div>
+		</div>
+    </div>
+        <!--Notices-->
+		<div class="col-md-4">
+		<div class="card floatLeft">
+		   <div class="card-header">
+		   <h3> <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Notice Board</h3>
+		   </div>
+            <div class="vticker" >
+                <ul class="list-group">
+                    <li class="list-group-item"><b>Bootstrap Framework Workshop</b></li>
+                    <li class="list-group-item"><b>HTML Workshop - 2016</b></li>
+                    <li class="list-group-item"><b>KEC Roadies - 2016</b></li>
+                    <li class="list-group-item"><b>TechnoBlitz Interview - 2015 </b></li>
+                    <li class="list-group-item"><b>C Gambling - 2015</b></li>
+                    <li class="list-group-item"><b>Java Basics Workshop - 2015</b></li>
+                    <li class="list-group-item"><b>HTML And CSS Workshop - 2015</b></li>
+                    <li class="list-group-item"><b>Blind Coding - 2015</b></li>
+                    <li class="list-group-item"><b>Know Your KEC - 2015</b></li>
+                    <li class="list-group-item"><b>Database and SQL Workshop - 2014</b></li>
+                    <li class="list-group-item"><b>KEC Roadies - 2014</b></li>
+                    <li class="list-group-item"><b>HTML & CSS Workshop Prize Distribution - 2014</b></li>
+                    <li class="list-group-item"><b>HTML & CSS Workshop - 2014</b></li>
+                    <li class="list-group-item"><b>Skit Competition - 2013</b></li>
+                </ul>
+            </div>
+            <div class="card-footer">
+              <a href="pages/notice board.html" target="_blank" class="btn btn-large btn-block btn-info" role="button">View All Notices</a>
+            </div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="container space">
+   <div class="row slideanim parent"> 
+      <div class="col-md-3"> <!-- Events -->
+         <div class="card card2 floatLeft"> 
+            <div class="card-header">
+            <h3><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Highlights</h3>
+            </div>
+            <div class="card-content">
+                <ul class="list-group">
+                    <li class="list-group-item"><h4>
+                      CONGRATULATIONS!!! to Ms. Kritika Gupta (CSE) for selection in "Daffodil Software".
+                    </h4></li>
+                    <li class="list-group-item"><h4>
+                      CONGRATULATIONS!!! to all students selected in Tech Mahindra.
+                    </h4></li>
+                    <li class="list-group-item"><h4>
+                      CONGRATULATIONS!!! to Avijit Saxena (CSE Dept.) for Selection in LIBSYS.
+                    </h4></li>
+                    <li class="list-group-item"><h4>
+                      CONGRATULATIONS!!! to all students selected in "HPE ".
+                    </h4></li>
+                </ul>
+            </div>
+         </div>
+      </div> 
+
+      <div class="col-md-3"> <!-- Courses Offered -->
+         <div class="card card2 floatLeft">
+            <div class="card-header">
+              <h3><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Courses Offered</h3>
+            </div>
+             <div class="card-content">
+                 <!-- Nav tabs -->
+                   <ul class="nav nav-tabs" role="tablist">
+                     <li role="presentation" class="active"><a href="#btech" aria-controls="btech" role="tab" data-toggle="tab">B. Tech</a></li>
+                     <li role="presentation"><a href="#mtech" aria-controls="mtech" role="tab" data-toggle="tab">M. TECH</a></li>
+                   </ul>
+
+                   <!-- Tab panes -->
+                   <div class="tab-content">
+                     <div role="tabpanel" class="tab-pane active" id="btech">
+                     <ul class="list-group" style="font-size: 15px; font-family: 'Roboto Condensed';">
+                       <li class="list-group-item active">
+                         Bachelor of Technology
+                         <span class="badge">seats</span>
+                     </li>
+                     <li class="list-group-item">
+                         Computer Science <br>& Engineering
+                         <span class="badge">240</span>
+                     </li>
+                     <li class="list-group-item">
+                         Electronics & Communication Engineering
+                         <span class="badge">180</span>
+                     </li>
+                     <li class="list-group-item">
+                        Electrical & Electronics Engineering 
+                         <span class="badge">120</span>
+                     </li>
+                     <li class="list-group-item">
+                         Mechanical Engineering
+                         <span class="badge">180</span>
+                     </li>
+                     <li class="list-group-item">
+                         Information Technology
+                         <span class="badge">60</span>
+                     </li>
+                     <li class="list-group-item">
+                         Civil Engineering
+                         <span class="badge">60</span>
+                     </li>
+                     
+                     <li class="list-group-item">
+                         <i>Second Shift</i>
+                     </li>
+                     <li class="list-group-item">
+                         Mechanical Engineering
+                         <span class="badge">60</span>
+                     </li>
+                     </ul>
+                     </div>
+                     <div role="tabpanel" class="tab-pane" id="mtech">
+                     <ul class="list-group" style="font-size: 15px; font-family: 'Roboto Condensed';">
+                       <li class="list-group-item active">
+                         Master of Technology
+                         <span class="badge">seats</span>
+                     </li>
+                     <li class="list-group-item">
+                         Computer Science <br>& Engineering
+                         <span class="badge">18</span>
+                     </li>
+                     <li class="list-group-item">
+                         Electronics & Communication Engineering
+                         <span class="badge">18</span>
+                     </li>
+                     </ul>
+                     </div>
+                   </div>
+             </div>
+         </div>   
+      </div>
+
+ 
+
+      <div class="col-md-3"> <!-- Director's Message -->
+         <div class="card card2 floatLeft"> 
+            <div class="card-header">
+            <h3><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Director's Message</h3>
+            </div>
+            <div class="card-content text-center">
+              <div style="padding: 10px;">
+               <p>Krishna Engineering College, in its ten years of existence, has always shown a positive graph of growth in all areas of functionality..</p>
+               <img src="images/NarendraKumar.png" class="img-responsive beechme">
+               <h4>Dr. Narendra Kumar</h4>
+               <p>Director of KEC</p>
+               </div>
+            </div>
+         </div>
+      </div> 
+
+     <!--  <div class="col-md-3"> 
+         <div class="card floatLeft"> 
+            <div class="card-header">
+            <h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Accreditations</h3>
+            </div>
+            <div class="card-content ">
+               <img src="images/nba.png" class="img-responsive beechme">
+               <img src="images/amcat.jpg" class="img-responsive beechme">
+            </div>
+         </div>
+      </div>  --> 
+      <div class="col-md-3">
+          <div class="card floatLeft"> 
+            <div class="card-header">
+            <h3><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Important Links</h3>
+            </div>
+            <div class="card-content"><h4>
+               <div class="col-sm-12 quicklink">
+                 <a href="http://icacds2016.krishnacollege.ac.in/" target="_blank" class="btn btn-primary btn-block btn-lg quicklink" role="button">
+                   <h4>Internation Conference</h4>
+                   ICACDS-2016 <br>
+                   November 11-12,2016
+                 </a>
+               </div>
+               <div class="col-sm-12 quicklink">
+                 <a href="#" target="_blank" class="btn btn-success btn-block btn-lg quicklink" role="button">
+                   <h4>Tutorials & Video Lectures</h4>
+                 </a>
+               </div>
+               <div class="col-sm-12 quicklink">
+                 <a href="http://192.168.107.4/NPTEL" target="_blank" class="btn btn-info btn-block btn-lg quicklink" role="button">
+                   <h4>NPTEL</h4>
+                 </a>
+               </div>
+               <div class="col-sm-12 quicklink">
+                 <a href="#" target="_blank" class="btn btn-warning btn-block btn-lg quicklink" role="button">
+                   <h4>Samajkalyan Scholarship <br> guidelines</h4>
+                 </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </div>
+</div>
+
+<hr class="dude">
+<!-- Contact Stuff -->
+<div class="container jagah">
+	<div class="row address slideanim">
+
+	  <div class="col-sm-7">
+	  <h2>Contact Us</h2>
+	    <div class="row">
+	      <div class="col-sm-6 form-group">
+	        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+	      </div>
+	      <div class="col-sm-6 form-group">
+	        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+	      </div>
+	    </div>
+	    <textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="5"></textarea><br>
+	    <div class="row">
+	      <div class="col-sm-12 form-group">
+	        <button class="btn btn-primary pull-right btn-block" type="submit"><i class="glyphicon glyphicon-send"></i> Send</button>
+	      </div>
+	    </div> 
+	  </div>
+    <div class="col-sm-5">
+    	<h2>Our Address is</h2>
+    	<div class="alert alert-info" role="alert">	
+		    95, Loni Road, Between Mohan Nagar and Air Force Station-Hindon Ghaziabad (Uttar Pradesh) <br>
+		    Pin : 201007 <br>
+		    Phone : 0120-2657731/32 <br>
+		    Tele-Fax : 0120-2659513 <br>
+		    Director's Direct Number : 0120-2659513 <br> <br>
+        <center><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Click Here to View Map</button></center>
+
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- <div class="modal-header">
+                <h4>This is modal title</h4>
+              </div> -->
+              <div class="modal-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14000.686493959045!2d77.3761082!3d28.6845123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c9f59007a0a6893!2sKrishna+Engineering+College!5e0!3m2!1sen!2sin!4v1470577096433" width="400" height="300" frameborder="0" style="border:solid 2px black; width: 100%" allowfullscreen></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            </div>
+          </div>
+    	</div>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="container jagahz">
+	<div class="recr">
+	<h2 class="text-center rect">Our Top Recruiters</h2>
+	</div>
+	<div class="slick-slider">
+		<img src="pl/3pillar.png" class="pl">
+		<img src="pl/amazon.png" class="pl">
+		<img src="pl/accenture.png" class="pl">
+		<img src="pl/aon.png" class="pl">
+		<img src="pl/birla.png" class="pl">
+		<img src="pl/bosch.png" class="pl">
+		<img src="pl/daffodil.png" class="pl">
+		<img src="pl/hcl.png" class="pl">
+		<img src="pl/expedia.png" class="pl">
+	</div>
+</div>
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+    <i class="glyphicon glyphicon-arrow-up"></i>
+</a>
+
+<!-- Footer -->
+<footer class="container-fluid">
+  <div class="container">
+  	<div class="col-md-4 last">
+  		Krishna Engineering College © 2016
+  	</div>
+    <div class="col-md-4">
+      <h4>Developed by <a href="http://anujsh.com" target="_blank" style="color: white;"><b>Anuj Sharma</b></a> & <a href="https://www.facebook.com/kingofdribbles" target="_blank" style="color: white;"><b>Rohit Kapoor</b></a></h4>
+    </div>
+  	<div class="col-md-4 last">
+  		Follow us on
+  		<a href="https://www.facebook.com/KECGZB" target="_blank"><img src="images/facebook.png" height="30px"></a>
+      		<a href="http://youtube.com/c/KECGhaziabadOfficial" target="_blank"><img src="images/youtube.png" height="30px"></a>
+            <a href="http://google.com/+KECGhaziabadOfficial" target="_blank"><img src="images/google+.png" height="30px"></a>
+            <a href="https://twitter.com/KrishnaCollege" target="_blank"><img src="images/twitter.png" height="30px"></a>
+            <a href="http://in.linkedin.com/pub/krishna-engineering-college-official-page/ab/197/620" target="_blank"><img src="images/linkedin.png" height="30px"></a>
+  	</div>
+  </div>
+</footer>
+
+    <!-- JavaScript Files-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swipe.js"></script>
+    <script src="js/jquery.easy-ticker.min.js"></script>
+	<script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fotorama.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript">
+        //Notice Board Tickr
+        $('.vticker').easyTicker({
+            direction: 'up',
+            easing: 'swing',
+            speed: 'slow',
+            interval: 2000,
+            height: 'auto',
+            width: 'auto',
+            visible: 5, //Number of list items to show at a time
+            mousePause: 1,
+            controls: {
+                up: '',
+                down: '',
+                toggle: '',
+                playText: 'Play',
+                stopText: 'Stop'
+            }
+        });
+        //Enabling swipe on slider
+        $('#myCarousel').bcSwipe({ threshold: 50 });
+        //Location of KEC on Google Maps
+    	var mapCanvas = document.getElementById("map");
+    	var mapOptions = {
+    	    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+    	}
+    	var map = new google.maps.Map(mapCanvas, mapOptions);
+    </script>
+    <script>
+$(document).ready(function(){
+    // Show the Modal on load
+    $("#myModal").modal("show");
+    });
+</script>
+  </body>
 </html>
